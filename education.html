@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8"/>
+	<title>Responsive Site</title>
+	<meta name="viewport" content="width=device-width" initial-scale="1.0">
+	
+<style>
+body {
+	background:#f1f0d1;
+	font-family:verdana, tahoma, arial, sans-serif;
+	font-size:18px;
+	overflow:auto;
+}	
+h1, h2, h3{
+	text-align:center;
+	padding-left:5%;
+	color:#878e63;
+}	
+p{
+	padding:2%;
+	color:#878e63;
+
+}
+img{
+	text-align:center;
+	max-width:100%;
+	height:auto;
+	width:auto;
+}	
+#wrapper{
+	margin:0 auto;
+	max-width:1020px;
+	width:98%;
+	background:#fefbe8;
+	border:1px solid #878e63;
+	border-radius:2px;
+	box-shadow:0 0 10px 0px rgba(12, 3, 25, 0.8);
+}
+#callout{
+	width:100%;
+	height:auto;
+	background:#878e63;
+	overflow:hidden;
+}
+#callout p{
+	text-align:right;
+	font-size:13px;
+	padding:0.1% 5% 0 0;
+	color:#f1f0d1;
+}
+#callout p a{
+	color:#f1f0d1;
+	text-decoration:none;
+}
+header{
+	width:96%;
+	min-height:80px;
+	padding:5px;
+	text-align:center;
+}
+nav ul{
+	list-style:none;
+	margin:0;
+	padding-left:50px;
+}
+
+nav ul li{
+	float:left;
+	border:1px solid #878e63;
+	width:11%;
+	height:33px;
+}
+
+nav ul li a {
+  background: #f1f0d1 none repeat scroll 0 0;
+  color: #878e63;
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+  padding-bottom: 5%;
+  padding-top: 5%;
+  text-align: center;
+  text-decoration: none;
+}
+nav ul li a:hover, nav ul li.active a{
+	background-color:#878e63;
+	color:#f1f0d1;
+}
+.banner img{
+	width:100%;
+	border-top:1px solid #878e63;
+	border-bottom:1px solid #878e63;
+}
+
+.clearfix{
+	clear:both;
+
+}
+.left-col{
+	width:55%;
+	float:left;
+	margin:-2% 1% 1% 1%;
+}
+.sideber {
+	width:40%;
+	float:right;
+	margin:1%;
+	text-align:center;
+}
+.football{
+	float:left;
+	margin:0 auto;
+	width:100%;
+	height:auto;
+	padding:1%;
+}
+.section{
+	width:36%;
+	float:left;
+	margin:2% 2%;
+	text-align:left;
+	margin-left:70px;
+}
+footer{
+	background:#878e63;
+	width:100%;
+	overflow:hidden;
+}
+footer p, footer h3{
+	color:#f1f0d1;
+}
+footer p a{
+	color:#f1f0d1;
+	text-decoration:none;
+}
+ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+li{
+	display:inline;
+
+}
+ul li img{
+	height:50px;
+}
+
+/*........................MEDIA!!!..................*/
+
+@media screen and (max-width:478px){
+	body{
+		font-size:13px;
+	
+	}
+}
+@media screen and (max-width:740px){
+	nav {
+		width:100%;
+		margin-bottom:10px;
+	}
+	
+	nav ul{
+		list-style:none; 
+		margin:0 auto;
+		padding-left:0;
+	}
+	nav ul li {
+		text-align:center;
+		margin-left:0 auto;
+		width:100%;
+		border-top:1px solid #878e63;
+		border-bottom:1px solid #878e63;
+		border-left:0px solid #878e63;
+		border-right:0px solid #878e63;
+	}
+	nav ul li a{
+		padding:8px 0;
+		font-size:16px;
+	}
+	.left-col{
+		width:100%;
+	
+	}
+	.sideber{
+		width:100%;
+	
+	}
+	.section{
+		float:left;
+		margin:0;
+		width:100%;
+	
+	}
+}
+
+
+</style>
+</head>
+<body>
+	<div id="wrapper">
+		<div id="callout">
+			<p>Call us at <b>01737538828</b></p>
+	 	</div>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about-us.html">About Us</a></li>
+				<li><a href="#">Our Team</a></li>
+				<li><a href="#">Gallery</a></li>
+				<li><a href="#">Education</a></li>
+				<li><a href="service.html">Services</a></li>
+				<li><a href="#">Social</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+			<div class="clearfix"></div>
+		</nav>
+		<div class="banner">
+			<img src="image/education.png"/>
+		</div>
+		<h2>Course Name of "4-year B.Sc(Hons) In Forestry"</h2>
+		<div class="section">
+			<h3>First Semester</h3>
+			<p>FOR-111  Introduction to Forestry<br>
+            FOR-112  Functional English<br>
+            FOR-113  Advanced Algebra and Trigonometry<br>
+			FOR-114  Forest Botany<br>
+			FOR-115  Fundamentals of Chemistry<br>
+			FOR-116  Forest Zoology<br>
+			FOR-117  Field Trip and Viva-voce </p>
+		</div>
+		<div class="section">
+			<h3>Second Semester</h3>
+			<p>FOR-121  Dendrology<br>
+			FOR-122  Physics<br>
+			FOR-123  Advanced Geometry and Calculus<br>
+			FOR-124  Sociology<br>
+			FOR-125  Geology and Soil Science<br>
+			FOR-126  Survey and Settlement<br>
+			FOR-127  Field Trip and Viva-voce </p>
+		</div>
+		<div class="section">
+			<h3>Third Semester</h3>
+			<p>FOR-211  Forest Ecology<br>
+			FOR-212  Plant Physiology<br>
+			FOR-213  Principles of Economics<br>
+			FOR-214  Meteorology<br>
+			FOR-215  Forest Entomology<br>
+			FOR-216  Computer Application in Forestry<br>
+			FOR-217  Field Trip and Viva-voce </p>
+		</div>
+		<div class="section">
+			<h3>Fourth Semester </h3>
+			<p>FOR-221  Wildlife Ecology and Management<br>
+			FOR-222  Statistics<br>
+			FOR-223  Aerial Photogrammetry, Remote Sensing and GIS<br>
+			FOR-224  Biodiversity Conservation<br>
+			FOR-225  Forest Pathology and Protection<br>
+			FOR-226  Protected Areas and Ecotorism<br>
+			FOR-227  Field Trip and Viva-voce </p>
+		</div>
+		<div class="section">
+			<h3>Fifth Semester</h3>
+			<p>FOR-311  Principles and Practice of Silviculture<br>
+			FOR-312  Forestry Extention<br>
+			FOR-313  Wood Structure and Properties<br>
+			FOR-314  Non-timber Forest Products<br>
+			FOR-315  Forest Mensuration and Inventory<br>
+			FOR-316  Building Materials and Construction<br>
+			FOR-317  Field Trip and Viva-voce</p>
+		</div>
+		<div class="section">
+			<h3>Sixth Semester</h3>
+			<p>FOR-321  Plantation Silviculture<br>
+			FOR-322  Social Forestry<br>
+			FOR-323  Rubber, Tea and Coffee<br>
+			FOR-324  Agroforestry<br>
+			FOR-325  Saw Milling, Seasoning and Preservation<br>
+			FOR-326  Forest Transportation Engineering<br>
+			FOR-327  Horticulture and Nursery Development<br>
+			FOR-328  Field Trip and Viva-voce </p>
+		</div>
+		<div class="section">
+			<h3>Seventh Semester</h3>
+			<p>FOR-411  Forest Management<br>
+			FOR-412  Forest Harvesting<br>
+			FOR-413  Forest Resources Economics and Marketing<br>
+			FOR-414  Research Methodology<br>
+			FOR-415  Tree Improvement and Biotechnology<br>
+			FOR-416  Wood Composite, Pulp and Pulp Products<br>
+			FOR-417  Field Trip and Viva-voce </p>
+		</div>
+		<div class="section">
+			<h3>Eighth Semester</h3>
+			<p>FOR-421  Forest Policy, Law and Administration<br>
+			FOR-422  Watershed Management<br>
+			FOR-423  Land-use Planning and Management<br>
+			FOR-424  Project Paper<br>
+			FOR-425  Integrated Forest Management Plan<br>
+			FOR-426  Forest Accounting<br>
+			FOR-427  Field Trip and Viva-voce  </p>
+		</div>
+		
+		<center><img src="http://www.w3newbie.com/wp-content/uploads/ease.png"/></center>
+		<footer>
+			
+		<div class="section">
+			<p>Connect With Us!</p>
+			<ul>
+				<li><a href="https://www.facebook.com/afsar.uddin.758"><img src="http://www.w3newbie.com/wp-content/uploads/facebook1.png"/></a></li>
+				<li><a href="https://plus.google.com/u/0/"><img src="http://www.w3newbie.com/wp-content/uploads/googleplus.png"/></a></li>
+				<li><a href="https://twitter.com/AfsarUddin32"><img src="http://www.w3newbie.com/wp-content/uploads/twitter1.png"/></a></li>
+				<li><a href="https://www.youtube.com/channel/UC4mvU2ID7euwnrmb1JaemDQ"><img src="http://www.w3newbie.com/wp-content/uploads/youtube1.png"/></a></li>
+			</ul>
+		</div>
+		<div class="section">
+			<img src="http://www.w3newbie.com/wp-content/uploads/plant.png"/>
+		</div>
+		</footer>
+	</div>
+		<p style="text-align:center; padding:0px;">&#169;copyright: Afsar-Ifescu</p>
+</body>
+</html>

@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8"/>
+	<title>Responsive Site</title>
+	<meta name="viewport" content="width=device-width" initial-scale="1.0">
+		
+<style>
+body {
+	background:#f1f0d1;
+	font-family:verdana, tahoma, arial, sans-serif;
+	font-size:18px;
+	overflow:auto;
+}	
+h1, h2, h3{
+	text-align:center;
+	padding-left:5%;
+	color:#878e63;
+}	
+p{
+	padding:2%;
+	color:#878e63;
+
+}
+img{
+	text-align:center;
+	max-width:100%;
+	height:auto;
+	width:auto;
+}	
+#wrapper{
+	margin:0 auto;
+	max-width:1020px;
+	width:98%;
+	background:#fefbe8;
+	border:1px solid #878e63;
+	border-radius:2px;
+	box-shadow:0 0 10px 0px rgba(12, 3, 25, 0.8);
+}
+#callout{
+	width:100%;
+	height:auto;
+	background:#878e63;
+	overflow:hidden;
+}
+#callout p{
+	text-align:right;
+	font-size:13px;
+	padding:0.1% 5% 0 0;
+	color:#f1f0d1;
+}
+#callout p a{
+	color:#f1f0d1;
+	text-decoration:none;
+}
+header{
+	width:96%;
+	min-height:80px;
+	padding:5px;
+	text-align:center;
+}
+nav ul{
+	list-style:none;
+	margin:0;
+	padding-left:50px;
+}
+nav ul li{
+	float:left;
+	border:1px solid #878e63;
+	width:11%;
+	height:33px;
+}
+
+nav ul li a {
+  background: #f1f0d1 none repeat scroll 0 0;
+  color: #878e63;
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+  padding-bottom: 5%;
+  padding-top: 5%;
+  text-align: center;
+  text-decoration: none;
+}
+nav ul li a:hover, nav ul li.active a{
+	background-color:#878e63;
+	color:#f1f0d1;
+}
+.banner img{
+	width:100%;
+	border-top:1px solid #878e63;
+	border-bottom:1px solid #878e63;
+}
+
+.clearfix{
+	clear:both;
+
+}
+.left-col{
+	width:55%;
+	float:left;
+	margin:-2% 1% 1% 1%;
+}
+.sideber {
+	width:40%;
+	float:right;
+	margin:1%;
+	text-align:center;
+}
+.football{
+	float:left;
+	margin:0 auto;
+	width:100%;
+	height:auto;
+	padding:1%;
+}
+.section{
+	width:36%;
+	float:left;
+	margin:5% 5%;
+	text-align:center;
+	
+}
+footer{
+	background:#878e63;
+	width:100%;
+	overflow:hidden;
+}
+footer p, footer h3{
+	color:#f1f0d1;
+}
+footer p a{
+	color:#f1f0d1;
+	text-decoration:none;
+}
+ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+li{
+	display:inline;
+
+}
+ul li img{
+	height:50px;
+}
+
+/*........................MEDIA!!!..................*/
+
+@media screen and (max-width:478px){
+	body{
+		font-size:13px;
+	
+	}
+}
+@media screen and (max-width:740px){
+	nav {
+		width:100%;
+		margin-bottom:10px;
+	}
+	
+	nav ul{
+		list-style:none; 
+		margin:0 auto;
+		padding-left:0;
+	}
+	nav ul li {
+		text-align:center;
+		margin-left:0 auto;
+		width:100%;
+		border-top:1px solid #878e63;
+		border-bottom:1px solid #878e63;
+		border-left:0px solid #878e63;
+		border-right:0px solid #878e63;
+	}
+	nav ul li a{
+		padding:8px 0;
+		font-size:16px;
+	}
+	.left-col{
+		width:100%;
+	
+	}
+	.sideber{
+		width:100%;
+	
+	}
+	.section{
+		float:left;
+		margin:0;
+		width:100%;
+	
+	}
+}
+
+
+</style>
+</head>
+<body>
+	<div id="wrapper">
+		<div id="callout">
+			<p>Call us at <b>01737538828</b></p>
+	 	</div>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about-us.html">About Us</a></li>
+				<li><a href="#">Our Team</a></li>
+				<li><a href="#">Gallery</a></li>
+				<li><a href="education.html">Education</a></li>
+				<li><a href="service.html">Services</a></li>
+				<li><a href="#">Social</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+			<div class="clearfix"></div>
+		</nav>
+		<div class="banner">
+			<img src="image/contact.jpg"/>
+		</div>
+		
+		<!......start main body area......>	
+			
+		<div class="section">
+			<h3 style="text-align: center;">Contact</h3>
+			<p style="text-align: center;">Mobile: 01737538828<br/>
+			Email: a.u.ifescu@gmail.com<br/>
+			Skype: atafsar</p>
+		</div>
+		<div class="section">
+			<h3 style="text-align: center;">Address</h3>
+			<p style="text-align: center;">Chittagong University<br/>Masterda Surjasen Hall<br/>
+			Room No. 410<br/></p>
+		</div>
+								
+	<!......end main body area......>	
+		<center><img src="http://www.w3newbie.com/wp-content/uploads/ease.png"/></center>
+		<footer>
+			
+		<div class="section">
+			<p>Connect With Us!</p>
+			<ul>
+				<li><a href="https://www.facebook.com/afsar.uddin.758"><img src="http://www.w3newbie.com/wp-content/uploads/facebook1.png"/></a></li>
+				<li><a href="https://plus.google.com/u/0/"><img src="http://www.w3newbie.com/wp-content/uploads/googleplus.png"/></a></li>
+				<li><a href="https://twitter.com/AfsarUddin32"><img src="http://www.w3newbie.com/wp-content/uploads/twitter1.png"/></a></li>
+				<li><a href="https://www.youtube.com/channel/UC4mvU2ID7euwnrmb1JaemDQ"><img src="http://www.w3newbie.com/wp-content/uploads/youtube1.png"/></a></li>
+			</ul>
+		</div>
+		<div class="section">
+			<img src="http://www.w3newbie.com/wp-content/uploads/plant.png"/>
+		</div>
+		</footer>
+	</div>
+		<p style="text-align:center; padding:0px;">&#169;copyright: Afsar-Ifescu</p>
+</body>
+</html>
